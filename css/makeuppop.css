@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    background-color:lavender;
+}
+img{
+    display: block;
+}
+article{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 50%;
+}
+.styling{
+    margin-top: 2%;
+}
+h1{
+    margin-bottom: 2%;
+    margin-left: 4%;
+}
+
+figure{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    height: 15%;
+    background-color: pink;
+}
+h2{
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 100%;
+    justify-content: center;
+}
+
+/* styling van de buttons */
+#bruin{
+    max-height: 65%;
+    margin-left: 10%;
+}
+#zwart{
+    max-height: 65%;
+}
+#blauw{
+    max-height: 65%;
+}
+#roze{
+    max-height: 65%;
+    margin-left: 10%;
+}
+#zwartrokje{
+    max-height: 65%;
+    margin-left: 10%;
+}
+#paars{
+    max-height: 65%;
+}
+#slipper{
+    max-height: 65%;
+    margin-left: 10%;
+}
+#booties{
+    max-height: 65%;
+}
+#button{
+    height: 75%;
+    margin-left: 25%;
+    visibility: hidden;
+}
